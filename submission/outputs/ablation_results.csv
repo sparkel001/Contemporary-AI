@@ -1,0 +1,3 @@
+setting,accuracy,macro_f1
+Raw Text,0.924,0.9246
+Cleaned Text,0.8521,0.8527
