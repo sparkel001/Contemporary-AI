@@ -1,0 +1,91 @@
+{
+  "data_audit": {
+    "raw_counts": {
+      "astar": 1620,
+      "trees": 420,
+      "treasure": 180
+    },
+    "configurations": 148,
+    "analysis_rows_checked": 58,
+    "sensitivity_rows_checked": 9,
+    "branches_checked": 8,
+    "source_hashes_match": true,
+    "all_checks_passed": true
+  },
+  "pdf_pages": 13,
+  "docx_tables": 16,
+  "embedded_figures": 4,
+  "editable_math_objects": 9,
+  "docx_font_parts": 12,
+  "pdf_fonts_embedded": {
+    "/BCDEEE+SimSun": true,
+    "/BCDFEE+TimesNewRomanPSMT": true,
+    "/BCDGEE+MS-Gothic": true,
+    "/BCDHEE+MicrosoftYaHei": true,
+    "/BCDIEE+Calibri-Italic": true,
+    "/BCDJEE+Calibri": true,
+    "/BCDKEE+Calibri": true,
+    "/BCDLEE+Calibri-Bold": true,
+    "/BCDMEE+TimesNewRomanPSMT": true,
+    "/BCDNEE+MicrosoftYaHei-Bold": true,
+    "/BCDOEE+TimesNewRomanPS-BoldMT": true,
+    "/BCDPEE+CambriaMath": true,
+    "/BCEAEE+TimesNewRomanPS-BoldMT": true
+  },
+  "text_chars_per_page": [
+    735,
+    1042,
+    969,
+    588,
+    906,
+    1080,
+    609,
+    829,
+    1060,
+    640,
+    438,
+    917,
+    1305
+  ],
+  "text_outside_page": [],
+  "matrix_verified": true,
+  "figures": {
+    "ablation.png": [
+      2160,
+      1440
+    ],
+    "astar_costs.png": [
+      2160,
+      1440
+    ],
+    "treasure_costs.png": [
+      2340,
+      1440
+    ],
+    "tree_orders.png": [
+      2160,
+      1440
+    ]
+  },
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "report_sha256": {
+    "实验二_搜索算法_实验报告.docx": "1eb85607cceab2c10383366ce5f06cae0fa627be96b0de1ad04145122ea3d157",
+    "实验二_搜索算法_实验报告.pdf": "d9ea261e645bdd268e7dcf7cfc441e73a98bc8facc7b3641290cac458eef4b68"
+  },
+  "pytest_project": "62 passed in 0.69s",
+  "pytest_submission": "62 passed in 0.91s"
+}

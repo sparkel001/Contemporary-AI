@@ -1,0 +1,293 @@
+{
+  "q1_zero": {
+    "output": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "stats": {
+      "visited": 16,
+      "expanded": 15,
+      "generated": 17,
+      "stale_pops": 0,
+      "frontier_peak": 3,
+      "leaf_evaluations": 0,
+      "cutoffs": 0,
+      "pruned_branches": 0
+    },
+    "elapsed_ns": 120400
+  },
+  "q1_manhattan": {
+    "output": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "stats": {
+      "visited": 14,
+      "expanded": 13,
+      "generated": 16,
+      "stale_pops": 0,
+      "frontier_peak": 3,
+      "leaf_evaluations": 0,
+      "cutoffs": 0,
+      "pruned_branches": 0
+    },
+    "elapsed_ns": 78200
+  },
+  "q2_zero": {
+    "output": 7,
+    "stats": {
+      "visited": 15,
+      "expanded": 14,
+      "generated": 24,
+      "stale_pops": 0,
+      "frontier_peak": 10,
+      "leaf_evaluations": 0,
+      "cutoffs": 0,
+      "pruned_branches": 0
+    },
+    "elapsed_ns": 80000
+  },
+  "q2_scaled": {
+    "output": 7,
+    "stats": {
+      "visited": 11,
+      "expanded": 10,
+      "generated": 19,
+      "stale_pops": 0,
+      "frontier_peak": 9,
+      "leaf_evaluations": 0,
+      "cutoffs": 0,
+      "pruned_branches": 0
+    },
+    "elapsed_ns": 84300
+  },
+  "q3_minimax": {
+    "output": 5,
+    "stats": {
+      "visited": 15,
+      "expanded": 7,
+      "generated": 14,
+      "stale_pops": 0,
+      "frontier_peak": 0,
+      "leaf_evaluations": 8,
+      "cutoffs": 0,
+      "pruned_branches": 0
+    },
+    "elapsed_ns": 38700
+  },
+  "q3_alpha_beta": {
+    "output": 5,
+    "stats": {
+      "visited": 14,
+      "expanded": 7,
+      "generated": 13,
+      "stale_pops": 0,
+      "frontier_peak": 0,
+      "leaf_evaluations": 7,
+      "cutoffs": 1,
+      "pruned_branches": 1
+    },
+    "elapsed_ns": 24400
+  },
+  "q4_distances": {
+    "output": [
+      [
+        "A",
+        "B",
+        "T1",
+        "T2",
+        "T3",
+        "T4"
+      ],
+      [
+        [
+          0,
+          12,
+          10,
+          4,
+          8,
+          8
+        ],
+        [
+          12,
+          0,
+          8,
+          8,
+          4,
+          10
+        ],
+        [
+          10,
+          8,
+          0,
+          6,
+          6,
+          12
+        ],
+        [
+          4,
+          8,
+          6,
+          0,
+          6,
+          6
+        ],
+        [
+          8,
+          4,
+          6,
+          6,
+          0,
+          6
+        ],
+        [
+          8,
+          10,
+          12,
+          6,
+          6,
+          0
+        ]
+      ]
+    ],
+    "stats": {
+      "visited": 365,
+      "expanded": 329,
+      "generated": 503,
+      "stale_pops": 0,
+      "frontier_peak": 10,
+      "leaf_evaluations": 0,
+      "cutoffs": 0,
+      "pruned_branches": 0
+    },
+    "elapsed_ns": 1437300
+  },
+  "q4_H2_minimax": {
+    "output": {
+      "best_target": "T2",
+      "best_value": -1
+    },
+    "stats": {
+      "visited": 17,
+      "expanded": 5,
+      "generated": 16,
+      "stale_pops": 0,
+      "frontier_peak": 0,
+      "leaf_evaluations": 12,
+      "cutoffs": 0,
+      "pruned_branches": 0
+    },
+    "elapsed_ns": 748100
+  },
+  "q4_H2_alpha_beta": {
+    "output": {
+      "best_target": "T2",
+      "best_value": -1
+    },
+    "stats": {
+      "visited": 13,
+      "expanded": 5,
+      "generated": 12,
+      "stale_pops": 0,
+      "frontier_peak": 0,
+      "leaf_evaluations": 8,
+      "cutoffs": 2,
+      "pruned_branches": 4
+    },
+    "elapsed_ns": 146900
+  },
+  "q4_H4_minimax": {
+    "output": {
+      "best_target": "T3",
+      "best_value": 3
+    },
+    "stats": {
+      "visited": 65,
+      "expanded": 41,
+      "generated": 64,
+      "stale_pops": 0,
+      "frontier_peak": 0,
+      "leaf_evaluations": 24,
+      "cutoffs": 0,
+      "pruned_branches": 0
+    },
+    "elapsed_ns": 566600
+  },
+  "q4_H4_alpha_beta": {
+    "output": {
+      "best_target": "T3",
+      "best_value": 3
+    },
+    "stats": {
+      "visited": 47,
+      "expanded": 31,
+      "generated": 46,
+      "stale_pops": 0,
+      "frontier_peak": 0,
+      "leaf_evaluations": 16,
+      "cutoffs": 5,
+      "pruned_branches": 6
+    },
+    "elapsed_ns": 434900
+  }
+}

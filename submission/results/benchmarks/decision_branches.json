@@ -1,0 +1,322 @@
+[
+  {
+    "depth": 2,
+    "first": "T1",
+    "value": -4,
+    "line": [
+      {
+        "player": "A",
+        "source": "A",
+        "target": "T1",
+        "cost": 10,
+        "treasure_value": 9,
+        "gain": -1,
+        "score_a": -1,
+        "score_b": 0,
+        "utility": -1
+      },
+      {
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "cost": 4,
+        "treasure_value": 7,
+        "gain": 3,
+        "score_a": -1,
+        "score_b": 3,
+        "utility": -4
+      }
+    ]
+  },
+  {
+    "depth": 2,
+    "first": "T2",
+    "value": -1,
+    "line": [
+      {
+        "player": "A",
+        "source": "A",
+        "target": "T2",
+        "cost": 4,
+        "treasure_value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "cost": 4,
+        "treasure_value": 7,
+        "gain": 3,
+        "score_a": 2,
+        "score_b": 3,
+        "utility": -1
+      }
+    ]
+  },
+  {
+    "depth": 2,
+    "first": "T3",
+    "value": -2,
+    "line": [
+      {
+        "player": "A",
+        "source": "A",
+        "target": "T3",
+        "cost": 8,
+        "treasure_value": 7,
+        "gain": -1,
+        "score_a": -1,
+        "score_b": 0,
+        "utility": -1
+      },
+      {
+        "player": "B",
+        "source": "B",
+        "target": "T1",
+        "cost": 8,
+        "treasure_value": 9,
+        "gain": 1,
+        "score_a": -1,
+        "score_b": 1,
+        "utility": -2
+      }
+    ]
+  },
+  {
+    "depth": 2,
+    "first": "T4",
+    "value": -4,
+    "line": [
+      {
+        "player": "A",
+        "source": "A",
+        "target": "T4",
+        "cost": 8,
+        "treasure_value": 7,
+        "gain": -1,
+        "score_a": -1,
+        "score_b": 0,
+        "utility": -1
+      },
+      {
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "cost": 4,
+        "treasure_value": 7,
+        "gain": 3,
+        "score_a": -1,
+        "score_b": 3,
+        "utility": -4
+      }
+    ]
+  },
+  {
+    "depth": 4,
+    "first": "T1",
+    "value": -5,
+    "line": [
+      {
+        "player": "A",
+        "source": "A",
+        "target": "T1",
+        "cost": 10,
+        "treasure_value": 9,
+        "gain": -1,
+        "score_a": -1,
+        "score_b": 0,
+        "utility": -1
+      },
+      {
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "cost": 4,
+        "treasure_value": 7,
+        "gain": 3,
+        "score_a": -1,
+        "score_b": 3,
+        "utility": -4
+      },
+      {
+        "player": "A",
+        "source": "T1",
+        "target": "T2",
+        "cost": 6,
+        "treasure_value": 6,
+        "gain": 0,
+        "score_a": -1,
+        "score_b": 3,
+        "utility": -4
+      },
+      {
+        "player": "B",
+        "source": "T3",
+        "target": "T4",
+        "cost": 6,
+        "treasure_value": 7,
+        "gain": 1,
+        "score_a": -1,
+        "score_b": 4,
+        "utility": -5
+      }
+    ]
+  },
+  {
+    "depth": 4,
+    "first": "T2",
+    "value": 1,
+    "line": [
+      {
+        "player": "A",
+        "source": "A",
+        "target": "T2",
+        "cost": 4,
+        "treasure_value": 6,
+        "gain": 2,
+        "score_a": 2,
+        "score_b": 0,
+        "utility": 2
+      },
+      {
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "cost": 4,
+        "treasure_value": 7,
+        "gain": 3,
+        "score_a": 2,
+        "score_b": 3,
+        "utility": -1
+      },
+      {
+        "player": "A",
+        "source": "T2",
+        "target": "T1",
+        "cost": 6,
+        "treasure_value": 9,
+        "gain": 3,
+        "score_a": 5,
+        "score_b": 3,
+        "utility": 2
+      },
+      {
+        "player": "B",
+        "source": "T3",
+        "target": "T4",
+        "cost": 6,
+        "treasure_value": 7,
+        "gain": 1,
+        "score_a": 5,
+        "score_b": 4,
+        "utility": 1
+      }
+    ]
+  },
+  {
+    "depth": 4,
+    "first": "T3",
+    "value": 3,
+    "line": [
+      {
+        "player": "A",
+        "source": "A",
+        "target": "T3",
+        "cost": 8,
+        "treasure_value": 7,
+        "gain": -1,
+        "score_a": -1,
+        "score_b": 0,
+        "utility": -1
+      },
+      {
+        "player": "B",
+        "source": "B",
+        "target": "T1",
+        "cost": 8,
+        "treasure_value": 9,
+        "gain": 1,
+        "score_a": -1,
+        "score_b": 1,
+        "utility": -2
+      },
+      {
+        "player": "A",
+        "source": "T3",
+        "target": "T2",
+        "cost": 6,
+        "treasure_value": 6,
+        "gain": 0,
+        "score_a": -1,
+        "score_b": 1,
+        "utility": -2
+      },
+      {
+        "player": "B",
+        "source": "T1",
+        "target": "T4",
+        "cost": 12,
+        "treasure_value": 7,
+        "gain": -5,
+        "score_a": -1,
+        "score_b": -4,
+        "utility": 3
+      }
+    ]
+  },
+  {
+    "depth": 4,
+    "first": "T4",
+    "value": -7,
+    "line": [
+      {
+        "player": "A",
+        "source": "A",
+        "target": "T4",
+        "cost": 8,
+        "treasure_value": 7,
+        "gain": -1,
+        "score_a": -1,
+        "score_b": 0,
+        "utility": -1
+      },
+      {
+        "player": "B",
+        "source": "B",
+        "target": "T3",
+        "cost": 4,
+        "treasure_value": 7,
+        "gain": 3,
+        "score_a": -1,
+        "score_b": 3,
+        "utility": -4
+      },
+      {
+        "player": "A",
+        "source": "T4",
+        "target": "T1",
+        "cost": 12,
+        "treasure_value": 9,
+        "gain": -3,
+        "score_a": -4,
+        "score_b": 3,
+        "utility": -7
+      },
+      {
+        "player": "B",
+        "source": "T3",
+        "target": "T2",
+        "cost": 6,
+        "treasure_value": 6,
+        "gain": 0,
+        "score_a": -4,
+        "score_b": 3,
+        "utility": -7
+      }
+    ]
+  }
+]
