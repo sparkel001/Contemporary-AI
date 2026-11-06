@@ -1,0 +1,9 @@
+{
+  "model": "cnn",
+  "augmentation": "basic",
+  "smoothing": 0,
+  "seed": 42,
+  "epochs": 24,
+  "batch": 256,
+  "weight_decay": 0.01
+}

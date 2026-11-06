@@ -1,0 +1,76 @@
+{
+  "interpretation": "Exploratory test evaluation; fixed protocol, no test-based selection",
+  "pairs": [
+    {
+      "seed": 42,
+      "basic": {
+        "validation_accuracy": 0.9061999917030334,
+        "test_accuracy": 0.8931,
+        "best_epoch": 58,
+        "training_seconds": 283.64507589983987
+      },
+      "cutout": {
+        "validation_accuracy": 0.9043999910354614,
+        "test_accuracy": 0.9016,
+        "best_epoch": 62,
+        "training_seconds": 334.26185669998995
+      },
+      "test_difference": 0.008499999999999952,
+      "validation_difference": -0.0018000006675720215
+    },
+    {
+      "seed": 43,
+      "basic": {
+        "validation_accuracy": 0.9039999842643738,
+        "test_accuracy": 0.8951,
+        "best_epoch": 63,
+        "training_seconds": 276.6238219997613
+      },
+      "cutout": {
+        "validation_accuracy": 0.9099999666213989,
+        "test_accuracy": 0.9012,
+        "best_epoch": 63,
+        "training_seconds": 334.6661200000108
+      },
+      "test_difference": 0.006099999999999994,
+      "validation_difference": 0.0059999823570251465
+    },
+    {
+      "seed": 44,
+      "basic": {
+        "validation_accuracy": 0.9039999842643738,
+        "test_accuracy": 0.8965,
+        "best_epoch": 65,
+        "training_seconds": 358.4978356001084
+      },
+      "cutout": {
+        "validation_accuracy": 0.9101999998092651,
+        "test_accuracy": 0.9058,
+        "best_epoch": 72,
+        "training_seconds": 329.86406420001003
+      },
+      "test_difference": 0.009300000000000086,
+      "validation_difference": 0.006200015544891357
+    }
+  ],
+  "basic": {
+    "validation_accuracy": {
+      "mean": 0.9047333200772604,
+      "sample_std": 0.0012701748869293383
+    },
+    "test_accuracy": {
+      "mean": 0.8948999999999999,
+      "sample_std": 0.001708800749063487
+    }
+  },
+  "cutout": {
+    "validation_accuracy": {
+      "mean": 0.9081999858220419,
+      "sample_std": 0.0032924115178073754
+    },
+    "test_accuracy": {
+      "mean": 0.9028666666666667,
+      "sample_std": 0.0025482019804822244
+    }
+  }
+}

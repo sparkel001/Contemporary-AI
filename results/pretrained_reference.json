@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "best_validation_accuracy": 0.9668,
+  "best_epoch": 11,
+  "test_accuracy": 0.9628,
+  "parameters": 11181642,
+  "training_seconds": 574.0170560999995,
+  "invocation_seconds": 582.1554661999999,
+  "inference_batch": 32,
+  "inference_batch_seconds": 0.01492163500006427,
+  "inference_precision": "float32",
+  "interpretation": "Exploratory transfer reference; different resolution, capacity and budget, not a controlled architecture comparison"
+}

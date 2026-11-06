@@ -1,0 +1,8 @@
+{
+  "setting": [
+    "resnet",
+    "basic",
+    0.1
+  ],
+  "folder": "checkpoints/resnet_basic_0.1_42_72"
+}

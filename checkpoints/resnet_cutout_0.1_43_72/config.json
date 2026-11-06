@@ -1,0 +1,9 @@
+{
+  "model": "resnet",
+  "augmentation": "cutout",
+  "smoothing": 0.1,
+  "seed": 43,
+  "epochs": 72,
+  "batch": 256,
+  "weight_decay": 0.01
+}

@@ -1,0 +1,14 @@
+{
+  "index": 1884,
+  "true_label": 7,
+  "true_class": "horse",
+  "predicted_label": 5,
+  "predicted_class": "dog",
+  "confidence": 0.9785739779472351,
+  "target_layer": "layer4",
+  "method": "Class logit gradients; spatial gradient mean; weighted activation sum; ReLU; bilinear resize; independent max normalization",
+  "seconds": 1.3019894999997632,
+  "true_heatmap_all_zero": true,
+  "predicted_heatmap_all_zero": false,
+  "zero_map_explanation": "No positive Grad-CAM response after ReLU; zero maps are retained without fabricated normalization"
+}

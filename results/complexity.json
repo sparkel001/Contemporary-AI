@@ -1,0 +1,14 @@
+{
+  "cnn": {
+    "parameters": 288746,
+    "conv_linear_macs": 38634752
+  },
+  "resnet": {
+    "parameters": 701466,
+    "conv_linear_macs": 35046656
+  },
+  "se": {
+    "parameters": 707416,
+    "conv_linear_macs": 35052096
+  }
+}
